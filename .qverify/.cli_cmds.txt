@@ -1,0 +1,117 @@
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 5
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 6
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 7
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog D:/Digital_Design_codes/Project_2/RAM.v D:/Digital_Design_codes/Project_2/SPI_slave.v D:/Digital_Design_codes/Project_2/Wrapper.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1606
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .elab.log  -cli -internal -cmd elab -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_1 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1606
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .createnl.log  -cli -internal -cmd create_netlist -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_1 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 1608
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_2 -db D:/Digital_Design_codes/Project_2/lint.db
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2308
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlib work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2309
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vmap work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 2310
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/share/modeltech/win64/vlog D:/Digital_Design_codes/Project_2/RAM.v D:/Digital_Design_codes/Project_2/SPI_slave.v D:/Digital_Design_codes/Project_2/Wrapper.v -work work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 3009
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .elab.log  -cli -internal -cmd elab -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_4 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 3009
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .createnl.log  -cli -internal -cmd create_netlist -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_4 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 3011
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_5 -db D:/Digital_Design_codes/Project_2/lint.db
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 3710
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .elab.log  -cli -internal -cmd elab -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_6 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 3710
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .createnl.log  -cli -internal -cmd create_netlist -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_6 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 3712
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_7 -db D:/Digital_Design_codes/Project_2/lint.db
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 4124
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .elab.log  -cli -internal -cmd elab -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_8 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 4124
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .createnl.log  -cli -internal -cmd create_netlist -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_8 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 4126
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_9 -db D:/Digital_Design_codes/Project_2/lint.db
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 4840
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .elab.log  -cli -internal -cmd elab -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_10 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 4840
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .createnl.log  -cli -internal -cmd create_netlist -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_10 -tool lint -d SPI_slave_top_module -L work
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False) signal for any gui required action
+
+
+# C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverify_ui_cmds.tcl : 4842
+C:/QFT_2021.1/QFT_2021.1/QFT/V2021.1/win64/bin/qverifyek  -od D:/Digital_Design_codes/Project_2 -l .qlcstatus.log  -cli -internal -cmd qlc_status_update -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_11 -db D:/Digital_Design_codes/Project_2/lint.db

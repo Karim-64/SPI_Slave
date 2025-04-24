@@ -1,0 +1,3 @@
+CheckId@CheckName
+0@always_signal_assign_large
+1@if_stmt_shares_arithmetic_operator

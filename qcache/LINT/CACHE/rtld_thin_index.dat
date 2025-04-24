@@ -1,0 +1,8 @@
+>8
+v366
+t2
+c3
+#0 p0 @spi_slave_if_1523392957
+#1 p1358 @spi_sync_ram_1934357754
+#2 p2531 @SPI_slave_top_module
+<8

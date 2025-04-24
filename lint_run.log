@@ -1,0 +1,158 @@
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sun Mar  9 17:37:37 2025 by Karim Maaty on Desktop
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sun Mar  9 17:36:52 2025 by Karim Maaty on Desktop
+
+
+Command: netlist elaborate
+Command arguments:
+    -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_10
+    -tool lint
+    -d SPI_slave_top_module
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Elaborating Design...
+Reading MTI mapping for library mapping
+Writing all MTI mappings to vmap output ...
+
+Top level modules:
+	SPI_slave_top_module
+
+Analyzing design...
+-- Loading module z0in_work.SPI_slave_top_module
+
+Performing 179 Lint Checks
+=============================
+
+Lint Stage 1 of 5 - Pre Design Elaboration (3 checks)
+------------------------------------------------------
+-- Loading module z0in_work.spi_slave_if
+-- Loading module z0in_work.spi_sync_ram
+Optimizing 3 design-units (inlining 0/3 module instances):
+-- Optimizing module z0in_work.spi_slave_if(fast)
+Lint Stage-1 100% complete [Total Progress -   7%]
+
+Lint Stage 2 of 5 - Design Elaboration (124 checks)
+----------------------------------------------------
+-- Optimizing module z0in_work.spi_sync_ram(fast)
+Lint Stage-2  33% complete (1 out of 3 modules checked) [Total Progress -  11%]
+-- Optimizing module z0in_work.SPI_slave_top_module(fast)
+Lint Stage-2  67% complete (2 out of 3 modules checked) [Total Progress -  17%]
+Optimized design name is zi_opt_def_1903893646_1
+Lint Stage-2 100% complete (3 out of 3 modules checked) [Total Progress -  23%]
+End of log Sun Mar  9 17:37:05 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sun Mar  9 17:37:07 2025 by Karim Maaty on Desktop
+
+
+Command: netlist create
+Command arguments:
+    -zdb D:/Digital_Design_codes/Project_2/qcache/DB/zdb_10
+    -tool lint
+    -d SPI_slave_top_module
+    -L work
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Synthesizing netlist...
+
+Lint Stage 3 of 5 - Post Design Elaboration (27 checks)
+--------------------------------------------------------
+Lint Stage-3  22% complete [Total Progress -  27%]
+Lint Stage-3  44% complete [Total Progress -  29%]
+Lint Stage-3  67% complete [Total Progress -  31%]
+Lint Stage-3  89% complete [Total Progress -  33%]
+Lint Stage-3 100% complete [Total Progress -  35%]
+Analyzing designs.
+Elaborating module 'spi_slave_if'.
+Elaborating module 'spi_sync_ram'.
+Elaborating module 'SPI_slave_top_module'.
+
+Lint Stage 4 of 5 - Design Synthesis (5 checks)
+------------------------------------------------
+Lint Stage-4  20% complete [Total Progress -  67%]
+Lint Stage-4  40% complete [Total Progress -  69%]
+Lint Stage-4  60% complete [Total Progress -  71%]
+Lint Stage-4  80% complete [Total Progress -  73%]
+Lint Stage-4 100% complete [Total Progress -  75%]
+
+Lint Stage 5 of 5 - Post Design Synthesis (20 checks)
+------------------------------------------------------
+Lint Stage-5  25% complete [Total Progress -  88%]
+Lint Stage-5  50% complete [Total Progress -  92%]
+Lint Stage-5  75% complete [Total Progress -  96%]
+Lint Stage-5 100% complete [Total Progress - 100%]
+
+Lint Checking Completed
+##Time Taken (Synthesis) = 4731.000000 ticks = 4.731000 secs
+
+End of log Sun Mar  9 17:37:22 2025
+
+
+# Reading design database from D:/Digital_Design_codes/Project_2/qcache/LINT/CACHE...completed (0.004 (s)).
+End of log Sun Mar  9 17:37:25 2025
+
+
+# 
+# Questa Static Verification System
+# Version 2021.1 4558100 win64 28-Jan-2021
+
+log created Sun Mar  9 17:37:25 2025 by Karim Maaty on Desktop
+
+
+Questa Debug flags:
+ 4300:  lint_gui_mode        (Default False)
+
+
+## Applying Lint Waivers...
+Final Process Statistics: Max memory 276MB, CPU time 33s, Total time 37s
+End of log Sun Mar  9 17:37:34 2025
+
+
+Result Summary
+-----------------------------------------------------------
+Error (0)
+-----------------------------------------------------------
+
+-----------------------------------------------------------
+Warning (1)
+-----------------------------------------------------------
+  if_stmt_shares_arithmetic_operator      :1
+
+-----------------------------------------------------------
+Info (1)
+-----------------------------------------------------------
+  always_signal_assign_large              :1
+
+-----------------------------------------------------------
+Resolved (0)
+-----------------------------------------------------------
+
+# Generating Debug Information...
+
+=================================================================
+To view results in batch
+  D:/Digital_Design_codes/Project_2/lint.rpt
+
+To view results in GUI (Beta Version) 
+  qverify D:/Digital_Design_codes/Project_2/lint.db
+=================================================================

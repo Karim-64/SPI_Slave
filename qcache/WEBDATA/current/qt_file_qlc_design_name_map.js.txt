@@ -1,0 +1,2 @@
+0@#@D:/Digital_Design_codes/Project_2/SPI_slave.v
+

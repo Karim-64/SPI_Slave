@@ -1,0 +1,4 @@
+Index@CheckId@Status@Category@DesignCategory@Severity@FileId@Module@ArgList@ClusterInfo@OldRtlId
+230bb947@0@uninspected@Rtl Design Style@Rtl Design Style@Info@0@"spi_slave_if"@"0:6#1:5#2:spi_slave_if#3:SPI_slave.v#"@"0"@""
+91bc3af8@1@uninspected@Rtl Design Style@Rtl Design Style@Warning@0@"spi_slave_if"@"0:counter#1:counter#2:spi_slave_if#3:SPI_slave.v#"@"0"@""
+

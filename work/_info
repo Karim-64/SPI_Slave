@@ -1,0 +1,201 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f vlog 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/questasim64_2021.1/examples
+T_opt
+!s110 1741898694
+VMeMJKn=UWhX=<^3o79];[2
+04 6 4 work SPI_tb fast 0
+=1-204747b89d99-67d343c5-2dc-1b34
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vsp_sync_ram
+!s110 1741439526
+!i10b 1
+!s100 z6eoLFS28Uc273<7S@YR13
+Ik@2<bJGW3YBz;BfV03P=F2
+Z2 dD:/Digital_Design_codes/Project_2
+w1741439522
+8D:/Digital_Design_codes/Project_2/RAM.v
+FD:/Digital_Design_codes/Project_2/RAM.v
+!i122 0
+L0 1 31
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.1;73
+r1
+!s85 0
+31
+!s108 1741439526.000000
+!s107 D:/Digital_Design_codes/Project_2/RAM.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/Digital_Design_codes/Project_2/RAM.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vspi_slave_if
+Z5 !s110 1741898687
+!i10b 1
+!s100 HN5P25VHi:B2>C7C?j[6_3
+IlMWTJaWNV_9JzZ]JQLJFK3
+R2
+w1741898658
+8SPI_slave.v
+FSPI_slave.v
+!i122 99
+L0 1 99
+R3
+R4
+r1
+!s85 0
+31
+Z6 !s108 1741898687.000000
+Z7 !s107 testbench.v|Wrapper.v|RAM.v|SPI_slave.v|
+Z8 !s90 -reportprogress|300|SPI_slave.v|RAM.v|Wrapper.v|testbench.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vSPI_slave_top_module
+R5
+!i10b 1
+!s100 o7VJ1?TTl2=`<e7L8kZTC3
+I_h2dF;?k7I=6LVohhc8?A0
+R2
+w1741465551
+8Wrapper.v
+FWrapper.v
+!i122 99
+L0 1 32
+R3
+R4
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@s@p@i_slave_top_module
+vspi_sync_ram
+R5
+!i10b 1
+!s100 A_blF?Udm0J85gFDgT8021
+IjYS>7Q;Y_1cBWn^bXaBe>3
+R2
+w1741519815
+8RAM.v
+FRAM.v
+!i122 99
+L0 1 33
+R3
+R4
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vSPI_tb
+R5
+!i10b 1
+!s100 :Y`jcGkKFG]g]adaTA?BX1
+IFLaJG?KD`=aaCee>_`o231
+R2
+w1741521948
+8testbench.v
+Ftestbench.v
+!i122 99
+L0 1 87
+R3
+R4
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@s@p@i_tb

@@ -1,0 +1,3 @@
+always_signal_assign_large:off
+if_stmt_shares_arithmetic_operator:off
+

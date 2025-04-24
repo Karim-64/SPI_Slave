@@ -1,0 +1,89 @@
+====================================================================================================
+Lint Check Report
+Questa Lint  Version 2021.1 4558100 win64 28-Jan-2021
+
+Timestamp            : Sun Mar  9 17:37:21 2025
+Description          : Report for referring checks count, check violations details, and  design information
+Design               : SPI_slave_top_module
+Database             : D:/Digital_Design_codes/Project_2/lint.db
+Design Quality Score : 99.6%
+
+Sections:
+   Section 1 : Check Summary
+   Section 2 : Check Details
+   Section 3 : Design Information
+====================================================================================================
+
+
+====================================================================================================
+Section 1 : Check Summary
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+---------------
+| Warning (1) |
+---------------
+  if_stmt_shares_arithmetic_operator      : 1
+
+------------
+| Info (1) |
+------------
+  always_signal_assign_large              : 1
+
+----------------
+| Resolved (0) |
+----------------
+
+
+====================================================================================================
+Section 2 : Check Details
+====================================================================================================
+-------------
+| Error (0) |
+-------------
+
+
+---------------
+| Warning (1) |
+---------------
+
+Check: if_stmt_shares_arithmetic_operator [Category: Rtl Design Style] (1)
+       [Message: If statement has three or more operations sharing the same operands and operator. First Operand '<operand1>', Second Operand '<operand2>', Module '<module>', File '<file>', Line '<line>'.]
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+if_stmt_shares_arithmetic_operator: [uninspected] If statement has three or more operations sharing the same operands and operator. First Operand 'counter', Second Operand 'counter', Module 'spi_slave_if', File 'D:/Digital_Design_codes/Project_2/SPI_slave.v', Line '81'.
+
+
+
+------------
+| Info (1) |
+------------
+
+Check: always_signal_assign_large [Category: Rtl Design Style] (1)
+       [Message: Always block has more signal assignments than the specified limit. Total count '<count>', Specified limit '<limit>', Module '<module>', File '<file>', Line '<line>'.]
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+always_signal_assign_large: [uninspected] Always block has more signal assignments than the specified limit. Total count '6', Specified limit '5', Module 'spi_slave_if', File 'D:/Digital_Design_codes/Project_2/SPI_slave.v', Line '55'.
+
+
+
+----------------
+| Resolved (0) |
+----------------
+
+
+
+====================================================================================================
+Section 3 : Design Information
+====================================================================================================
+-----------
+| Summary |
+-----------
+  Register Bits                           : 54
+  Latch Bits                              : 0
+  User-specified Blackboxes               : 0
+  Inferred Blackboxes                     : 0
+  Empty Modules                           : 0
+  Unresolved Modules                      : 0
+  Hierarchical IPs                        : 0
+

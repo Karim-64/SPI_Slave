@@ -1,0 +1,21 @@
+<LayoutInfo CurrentRTLLayout="Default" version="1">
+ <Layout Type="IDE_pref" Name="Default">
+  <dockareas right="388" top="0" left="300" bottom="243"/>
+  <taborder right="zinlintMsgSummaryView+" left="zinflownavigator+zindetails+zincdcdutview+" bottom="transcript+zinmsgviewer+zinlintMsgView+zinlintDesignMetricsView+zinlintDesignInfoView+zinlintMsgStatusHistoryView+zinlintMsgDashboardView+"/>
+  <activetab right="zinlintMsgSummaryView" activewindow="zinlintMsgView" left="zincdcdutview" bottom="zinlintMsgView"/>
+  <window x="0" undocked="0" title="Flow Navigator" y="0" dock_location="left" type="zinflownavigator" visible="1"/>
+  <window x="0" undocked="0" title="Details" y="0" dock_location="left" type="zindetails" visible="1"/>
+  <window x="0" undocked="0" title="Design" y="0" dock_location="left" type="zincdcdutview" visible="1"/>
+  <window x="0" undocked="0" title="Lint Summary" y="0" dock_location="right" type="zinlintMsgSummaryView" visible="1"/>
+  <window x="0" undocked="0" y="0" dock_location="bottom" type="transcript" visible="1"/>
+  <window x="0" undocked="0" title="Message Viewer" y="0" dock_location="bottom" type="zinmsgviewer" visible="1"/>
+  <window x="0" undocked="0" title="Lint Checks" y="0" dock_location="bottom" type="zinlintMsgView" visible="1"/>
+  <window x="0" undocked="0" title="Design Metrics" y="0" dock_location="bottom" type="zinlintDesignMetricsView" visible="1"/>
+  <window x="0" undocked="0" title="Design Information" y="0" dock_location="bottom" type="zinlintDesignInfoView" visible="1"/>
+  <window x="0" undocked="0" title="Status History" y="0" dock_location="bottom" type="zinlintMsgStatusHistoryView" visible="1"/>
+  <window x="0" undocked="0" title="Lint Dashboard" y="0" dock_location="bottom" type="zinlintMsgDashboardView" visible="1"/>
+  <window x="-1" undocked="0" y="-9" width="1920" height="1001" type="rtl" visible="1"/>
+  <window x="0" undocked="0" y="0" dock_location="center" type="source" visible="1"/>
+  <window x="0" undocked="0" id="1" y="0" dock_location="center" type="source" visible="0"/>
+ </Layout>
+</LayoutInfo>
